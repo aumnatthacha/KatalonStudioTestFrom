@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Tc001" time="72.194" tests="4" failures="0" errors="0">
+   <testsuite name="Tc001" tests="4" failures="0" errors="0" time="72.194" skipped="0" timestamp="2566-04-10 10:36:22" hostname="aummu - 10.1.41.36" id="Test Suites/Tc001">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\aummu\\Katalon Studio\\Test007\\Reports\\25660410_103606\\Tc001\\25660410_103606"/>
+         <property name="logFiles" value="C:\\Users\\aummu\\Katalon Studio\\Test007\\Reports\\25660410_103606\\Tc001\\25660410_103606\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="aummu - 10.1.41.36"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="browser" value="Chrome 112.0.0.0"/>
+         <property name="hostAddress" value="10.1.41.36"/>
+         <property name="sessionId" value="b83808e114c3e5eeee5960dc133610dc"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/test01" time="22.916" classname="Test Cases/test01" status="PASSED">
+         <system-out><![CDATA[2566-04-10 10:36:23 - [TEST_CASE][PASSED] - Test Cases/test01: Test Cases/test01
+
+2566-04-10 10:36:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2566-04-10 10:36:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2566-04-10 10:36:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2566-04-10 10:36:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2566-04-10 10:36:29 - [TEST_STEP][PASSED] - navigateToUrl("https://www.gmm-tv.com/shop/index.php?route=account/register"): Navigate to 'https://www.gmm-tv.com/shop/index.php?route=account/register' successfully
+
+2566-04-10 10:36:35 - [MESSAGE][PASSED] - Navigate to 'https://www.gmm-tv.com/shop/index.php?route=account/register' successfully
+
+2566-04-10 10:36:35 - [TEST_STEP][PASSED] - setText(findTestObject("name"), "Natthacha"): Text 'Natthacha' is set on object 'Object Repository/name'
+
+2566-04-10 10:36:36 - [MESSAGE][PASSED] - Text 'Natthacha' is set on object 'Object Repository/name'
+
+2566-04-10 10:36:36 - [TEST_STEP][PASSED] - setText(findTestObject("lastname"), "Mumdaeng"): Text 'Mumdaeng' is set on object 'Object Repository/lastname'
+
+2566-04-10 10:36:38 - [MESSAGE][PASSED] - Text 'Mumdaeng' is set on object 'Object Repository/lastname'
+
+2566-04-10 10:36:38 - [TEST_STEP][PASSED] - setText(findTestObject("gmail"), "aummumdaeng@gmail.com"): Text 'aummumdaeng@gmail.com' is set on object 'Object Repository/gmail'
+
+2566-04-10 10:36:39 - [MESSAGE][PASSED] - Text 'aummumdaeng@gmail.com' is set on object 'Object Repository/gmail'
+
+2566-04-10 10:36:39 - [TEST_STEP][PASSED] - setText(findTestObject("phone"), "0656375524"): Text '0656375524' is set on object 'Object Repository/phone'
+
+2566-04-10 10:36:40 - [MESSAGE][PASSED] - Text '0656375524' is set on object 'Object Repository/phone'
+
+2566-04-10 10:36:40 - [TEST_STEP][PASSED] - setText(findTestObject("password"), "natthacha2002"): Text 'natthacha2002' is set on object 'Object Repository/password'
+
+2566-04-10 10:36:41 - [MESSAGE][PASSED] - Text 'natthacha2002' is set on object 'Object Repository/password'
+
+2566-04-10 10:36:41 - [TEST_STEP][PASSED] - setText(findTestObject("con_password"), "natthacha2002"): Text 'natthacha2002' is set on object 'Object Repository/con_password'
+
+2566-04-10 10:36:42 - [MESSAGE][PASSED] - Text 'natthacha2002' is set on object 'Object Repository/con_password'
+
+2566-04-10 10:36:42 - [TEST_STEP][PASSED] - title = getWindowTitle(): Current window's title is: 'REGISTER สมัครสมาชิก'
+
+2566-04-10 10:36:43 - [MESSAGE][PASSED] - Current window's title is: 'REGISTER สมัครสมาชิก'
+
+2566-04-10 10:36:43 - [TEST_STEP][PASSED] - verifyMatch(title, "REGISTER สมัครสมาชิก", false): Actual text 'REGISTER สมัครสมาชิก' and expected text 'REGISTER สมัครสมาชิก' are matched 
+
+2566-04-10 10:36:43 - [MESSAGE][PASSED] - Actual text 'REGISTER สมัครสมาชิก' and expected text 'REGISTER สมัครสมาชิก' are matched 
+
+2566-04-10 10:36:43 - [TEST_STEP][PASSED] - click(findTestObject("click", ["variable":""])): Object: 'Object Repository/click' is clicked on
+
+2566-04-10 10:36:43 - [MESSAGE][PASSED] - Object: 'Object Repository/click' is clicked on
+
+2566-04-10 10:36:43 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("click"), 0): Object 'Object Repository/click' is checked
+
+2566-04-10 10:36:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2566-04-10 10:36:44 - [MESSAGE][PASSED] - Object 'Object Repository/click' is checked
+
+2566-04-10 10:36:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2566-04-10 10:36:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/test02" time="19.301" classname="Test Cases/test02" status="PASSED">
+         <system-out><![CDATA[2566-04-10 10:36:46 - [TEST_CASE][PASSED] - Test Cases/test02: Test Cases/test02
+
+2566-04-10 10:36:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2566-04-10 10:36:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2566-04-10 10:36:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2566-04-10 10:36:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2566-04-10 10:36:49 - [TEST_STEP][PASSED] - navigateToUrl("https://www.gmm-tv.com/shop/index.php?route=account/register"): Navigate to 'https://www.gmm-tv.com/shop/index.php?route=account/register' successfully
+
+2566-04-10 10:36:54 - [MESSAGE][PASSED] - Navigate to 'https://www.gmm-tv.com/shop/index.php?route=account/register' successfully
+
+2566-04-10 10:36:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_REGISTER/input_First Name_firstname"), "ณาตหชา "): Text 'ณาตหชา ' is set on object 'Object Repository/Page_REGISTER/input_First Name_firstname'
+
+2566-04-10 10:36:55 - [MESSAGE][PASSED] - Text 'ณาตหชา ' is set on object 'Object Repository/Page_REGISTER/input_First Name_firstname'
+
+2566-04-10 10:36:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_REGISTER/input_Last Name_lastname"), "มุมแดง"): Text 'มุมแดง' is set on object 'Object Repository/Page_REGISTER/input_Last Name_lastname'
+
+2566-04-10 10:36:56 - [MESSAGE][PASSED] - Text 'มุมแดง' is set on object 'Object Repository/Page_REGISTER/input_Last Name_lastname'
+
+2566-04-10 10:36:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_REGISTER/input_E-mail_email"), "aummumdaeng@gmail.com"): Text 'aummumdaeng@gmail.com' is set on object 'Object Repository/Page_REGISTER/input_E-mail_email'
+
+2566-04-10 10:36:57 - [MESSAGE][PASSED] - Text 'aummumdaeng@gmail.com' is set on object 'Object Repository/Page_REGISTER/input_E-mail_email'
+
+2566-04-10 10:36:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_REGISTER/input_Phone_telephone"), "0656375524"): Text '0656375524' is set on object 'Object Repository/Page_REGISTER/input_Phone_telephone'
+
+2566-04-10 10:36:58 - [MESSAGE][PASSED] - Text '0656375524' is set on object 'Object Repository/Page_REGISTER/input_Phone_telephone'
+
+2566-04-10 10:36:58 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_REGISTER/input_Create Password_password"), "5oMMk0FHFUklkoX8kTnEvA=="): Text ****** has been set on object 'Object Repository/Page_REGISTER/input_Create Password_password'
+
+2566-04-10 10:36:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_REGISTER/input_Create Password_password'
+
+2566-04-10 10:36:59 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_REGISTER/input_Confirm Password_confirm"), "5oMMk0FHFUklkoX8kTnEvA=="): Text ****** has been set on object 'Object Repository/Page_REGISTER/input_Confirm Password_confirm'
+
+2566-04-10 10:37:00 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_REGISTER/input_Confirm Password_confirm'
+
+2566-04-10 10:37:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_REGISTER/input_Privacy Policy_btn btn-primary")): Object: 'Object Repository/Page_REGISTER/input_Privacy Policy_btn btn-primary' is clicked on
+
+2566-04-10 10:37:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_REGISTER/input_Privacy Policy_btn btn-primary' is clicked on
+
+2566-04-10 10:37:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_REGISTER/div_Warning You must agree to the")): Object: 'Object Repository/Page_REGISTER/div_Warning You must agree to the' is clicked on
+
+2566-04-10 10:37:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_REGISTER/div_Warning You must agree to the' is clicked on
+
+2566-04-10 10:37:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2566-04-10 10:37:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/test03" time="20.375" classname="Test Cases/test03" status="PASSED">
+         <system-out><![CDATA[2566-04-10 10:37:05 - [TEST_CASE][PASSED] - Test Cases/test03: Test Cases/test03
+
+2566-04-10 10:37:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2566-04-10 10:37:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2566-04-10 10:37:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2566-04-10 10:37:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2566-04-10 10:37:08 - [TEST_STEP][PASSED] - navigateToUrl("https://www.gmm-tv.com/shop/index.php?route=account/register"): Navigate to 'https://www.gmm-tv.com/shop/index.php?route=account/register' successfully
+
+2566-04-10 10:37:15 - [MESSAGE][PASSED] - Navigate to 'https://www.gmm-tv.com/shop/index.php?route=account/register' successfully
+
+2566-04-10 10:37:15 - [TEST_STEP][PASSED] - navigateToUrl("https://www.gmm-tv.com/shop/index.php?route=account/register"): Navigate to 'https://www.gmm-tv.com/shop/index.php?route=account/register' successfully
+
+2566-04-10 10:37:16 - [MESSAGE][PASSED] - Navigate to 'https://www.gmm-tv.com/shop/index.php?route=account/register' successfully
+
+2566-04-10 10:37:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_REGISTER/input_First Name_firstname"), "Natthacha"): Text 'Natthacha' is set on object 'Object Repository/Page_REGISTER/input_First Name_firstname'
+
+2566-04-10 10:37:18 - [MESSAGE][PASSED] - Text 'Natthacha' is set on object 'Object Repository/Page_REGISTER/input_First Name_firstname'
+
+2566-04-10 10:37:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_REGISTER/input_Last Name_lastname"), "Mumdaeng"): Text 'Mumdaeng' is set on object 'Object Repository/Page_REGISTER/input_Last Name_lastname'
+
+2566-04-10 10:37:20 - [MESSAGE][PASSED] - Text 'Mumdaeng' is set on object 'Object Repository/Page_REGISTER/input_Last Name_lastname'
+
+2566-04-10 10:37:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_REGISTER/input_E-mail_email"), "aummumdaeng@gmail.com"): Text 'aummumdaeng@gmail.com' is set on object 'Object Repository/Page_REGISTER/input_E-mail_email'
+
+2566-04-10 10:37:21 - [MESSAGE][PASSED] - Text 'aummumdaeng@gmail.com' is set on object 'Object Repository/Page_REGISTER/input_E-mail_email'
+
+2566-04-10 10:37:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_REGISTER/input_Phone_telephone"), "0656375524"): Text '0656375524' is set on object 'Object Repository/Page_REGISTER/input_Phone_telephone'
+
+2566-04-10 10:37:22 - [MESSAGE][PASSED] - Text '0656375524' is set on object 'Object Repository/Page_REGISTER/input_Phone_telephone'
+
+2566-04-10 10:37:22 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_REGISTER/input_Create Password_password"), "5oMMk0FHFUmL7+kTLLhsWA=="): Text ****** has been set on object 'Object Repository/Page_REGISTER/input_Create Password_password'
+
+2566-04-10 10:37:23 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_REGISTER/input_Create Password_password'
+
+2566-04-10 10:37:23 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_REGISTER/input_Confirm Password_confirm"), "5oMMk0FHFUmL7+kTLLhsWA=="): Text ****** has been set on object 'Object Repository/Page_REGISTER/input_Confirm Password_confirm'
+
+2566-04-10 10:37:24 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_REGISTER/input_Confirm Password_confirm'
+
+2566-04-10 10:37:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_REGISTER/input_Accept the condition_agree")): Object: 'Object Repository/Page_REGISTER/input_Accept the condition_agree' is clicked on
+
+2566-04-10 10:37:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_REGISTER/input_Accept the condition_agree' is clicked on
+
+2566-04-10 10:37:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2566-04-10 10:37:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test04" time="8.484" classname="Test Cases/Test04" status="PASSED">
+         <system-out><![CDATA[2566-04-10 10:37:25 - [TEST_CASE][PASSED] - Test Cases/Test04: Test Cases/Test04
+
+2566-04-10 10:37:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2566-04-10 10:37:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2566-04-10 10:37:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2566-04-10 10:37:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2566-04-10 10:37:29 - [TEST_STEP][PASSED] - navigateToUrl("https://www.gmm-tv.com/shop/index.php?route=account/register"): Navigate to 'https://www.gmm-tv.com/shop/index.php?route=account/register' successfully
+
+2566-04-10 10:37:33 - [MESSAGE][PASSED] - Navigate to 'https://www.gmm-tv.com/shop/index.php?route=account/register' successfully
+
+2566-04-10 10:37:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2566-04-10 10:37:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2566-04-10 10:36:22 - [TEST_SUITE][PASSED] - Tc001: Test Cases/Test04]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

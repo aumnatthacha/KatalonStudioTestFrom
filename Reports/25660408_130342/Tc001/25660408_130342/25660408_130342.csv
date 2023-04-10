@@ -1,0 +1,43 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Tc001,Chrome 112.0.0.0,,,2566-04-08 13:04:05,2566-04-08 13:05:03,58.723s,PASSED
+,,,,,,,
+Test Cases/test01,Chrome 112.0.0.0,,,2566-04-08 13:04:05,2566-04-08 13:04:26,20.831s,PASSED
+"openBrowser("""")",Chrome 112.0.0.0,,,2566-04-08 13:04:06,2566-04-08 13:04:12,5.247s,PASSED
+"navigateToUrl(""https://www.gmm-tv.com/shop/index.php?route=account/register"")",Chrome 112.0.0.0,,,2566-04-08 13:04:12,2566-04-08 13:04:16,3.882s,PASSED
+"setText(findTestObject(""name""), ""Natthacha"")",Chrome 112.0.0.0,,,2566-04-08 13:04:16,2566-04-08 13:04:17,1.314s,PASSED
+"setText(findTestObject(""lastname""), ""Mumdaeng"")",Chrome 112.0.0.0,,,2566-04-08 13:04:17,2566-04-08 13:04:18,1.534s,PASSED
+"setText(findTestObject(""gmail""), ""aummumdaeng@gmail.com"")",Chrome 112.0.0.0,,,2566-04-08 13:04:18,2566-04-08 13:04:20,1.586s,PASSED
+"setText(findTestObject(""phone""), ""0656375524"")",Chrome 112.0.0.0,,,2566-04-08 13:04:20,2566-04-08 13:04:21,1.341s,PASSED
+"setText(findTestObject(""password""), ""natthacha2002"")",Chrome 112.0.0.0,,,2566-04-08 13:04:21,2566-04-08 13:04:22,1.130s,PASSED
+"setText(findTestObject(""con_password""), ""natthacha2002"")",Chrome 112.0.0.0,,,2566-04-08 13:04:22,2566-04-08 13:04:24,1.111s,PASSED
+title = getWindowTitle(),Chrome 112.0.0.0,,,2566-04-08 13:04:24,2566-04-08 13:04:24,0.064s,PASSED
+"verifyMatch(title, ""REGISTER สมัครสมาชิก"", false)",Chrome 112.0.0.0,,,2566-04-08 13:04:24,2566-04-08 13:04:24,0.088s,PASSED
+"click(findTestObject(""click"", [""variable"":""""]))",Chrome 112.0.0.0,,,2566-04-08 13:04:24,2566-04-08 13:04:25,0.834s,PASSED
+"verifyElementChecked(findTestObject(""click""), 0)",Chrome 112.0.0.0,,,2566-04-08 13:04:25,2566-04-08 13:04:25,0.593s,PASSED
+closeBrowser(),Chrome 112.0.0.0,,,2566-04-08 13:04:25,2566-04-08 13:04:26,1.099s,PASSED
+,,,,,,,
+Test Cases/test02,Chrome 112.0.0.0,,,2566-04-08 13:04:26,2566-04-08 13:04:45,18.263s,PASSED
+"openBrowser("""")",Chrome 112.0.0.0,,,2566-04-08 13:04:27,2566-04-08 13:04:30,2.548s,PASSED
+"navigateToUrl(""https://www.gmm-tv.com/shop/index.php?route=account/register"")",Chrome 112.0.0.0,,,2566-04-08 13:04:30,2566-04-08 13:04:32,2.527s,PASSED
+"setText(findTestObject(""Object Repository/Page_REGISTER/input_First Name_firstname""), ""ณาตหชา "")",Chrome 112.0.0.0,,,2566-04-08 13:04:32,2566-04-08 13:04:34,1.403s,PASSED
+"setText(findTestObject(""Object Repository/Page_REGISTER/input_Last Name_lastname""), ""มุมแดง"")",Chrome 112.0.0.0,,,2566-04-08 13:04:34,2566-04-08 13:04:35,1.128s,PASSED
+"setText(findTestObject(""Object Repository/Page_REGISTER/input_E-mail_email""), ""aummumdaeng@gmail.com"")",Chrome 112.0.0.0,,,2566-04-08 13:04:35,2566-04-08 13:04:36,1.155s,PASSED
+"setText(findTestObject(""Object Repository/Page_REGISTER/input_Phone_telephone""), ""0656375524"")",Chrome 112.0.0.0,,,2566-04-08 13:04:36,2566-04-08 13:04:37,1.083s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_REGISTER/input_Create Password_password""), ""5oMMk0FHFUklkoX8kTnEvA=="")",Chrome 112.0.0.0,,,2566-04-08 13:04:37,2566-04-08 13:04:38,0.784s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_REGISTER/input_Confirm Password_confirm""), ""5oMMk0FHFUklkoX8kTnEvA=="")",Chrome 112.0.0.0,,,2566-04-08 13:04:38,2566-04-08 13:04:39,0.798s,PASSED
+"click(findTestObject(""Object Repository/Page_REGISTER/input_Privacy Policy_btn btn-primary""))",Chrome 112.0.0.0,,,2566-04-08 13:04:39,2566-04-08 13:04:42,3.660s,PASSED
+"click(findTestObject(""Object Repository/Page_REGISTER/div_Warning You must agree to the""))",Chrome 112.0.0.0,,,2566-04-08 13:04:42,2566-04-08 13:04:43,1.117s,PASSED
+closeBrowser(),Chrome 112.0.0.0,,,2566-04-08 13:04:43,2566-04-08 13:04:45,1.163s,PASSED
+,,,,,,,
+Test Cases/test03,Chrome 112.0.0.0,,,2566-04-08 13:04:45,2566-04-08 13:05:03,18.840s,PASSED
+"openBrowser("""")",Chrome 112.0.0.0,,,2566-04-08 13:04:46,2566-04-08 13:04:48,2.581s,PASSED
+"navigateToUrl(""https://www.gmm-tv.com/shop/index.php?route=account/register"")",Chrome 112.0.0.0,,,2566-04-08 13:04:48,2566-04-08 13:04:52,4.115s,PASSED
+"navigateToUrl(""https://www.gmm-tv.com/shop/index.php?route=account/register"")",Chrome 112.0.0.0,,,2566-04-08 13:04:52,2566-04-08 13:04:54,2.097s,PASSED
+"setText(findTestObject(""Object Repository/Page_REGISTER/input_First Name_firstname""), ""Natthacha"")",Chrome 112.0.0.0,,,2566-04-08 13:04:54,2566-04-08 13:04:56,1.796s,PASSED
+"setText(findTestObject(""Object Repository/Page_REGISTER/input_Last Name_lastname""), ""Mumdaeng"")",Chrome 112.0.0.0,,,2566-04-08 13:04:56,2566-04-08 13:04:58,1.416s,PASSED
+"setText(findTestObject(""Object Repository/Page_REGISTER/input_Phone_telephone""), ""0656375524"")",Chrome 112.0.0.0,,,2566-04-08 13:04:58,2566-04-08 13:04:59,1.585s,PASSED
+"setText(findTestObject(""Object Repository/Page_REGISTER/input_E-mail_email""), ""aummumdaeng@gmail.com"")",Chrome 112.0.0.0,,,2566-04-08 13:04:59,2566-04-08 13:05:00,1.107s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_REGISTER/input_Create Password_password""), ""5oMMk0FHFUmL7+kTLLhsWA=="")",Chrome 112.0.0.0,,,2566-04-08 13:05:00,2566-04-08 13:05:01,0.734s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_REGISTER/input_Confirm Password_confirm""), ""5oMMk0FHFUmL7+kTLLhsWA=="")",Chrome 112.0.0.0,,,2566-04-08 13:05:01,2566-04-08 13:05:02,0.684s,PASSED
+"click(findTestObject(""Object Repository/Page_REGISTER/input_Accept the condition_agree""))",Chrome 112.0.0.0,,,2566-04-08 13:05:02,2566-04-08 13:05:02,0.557s,PASSED
+closeBrowser(),Chrome 112.0.0.0,,,2566-04-08 13:05:02,2566-04-08 13:05:03,1.056s,PASSED
