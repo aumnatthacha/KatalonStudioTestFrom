@@ -25,8 +25,6 @@ WebUI.setText(findTestObject('Object Repository/Page_REGISTER/input_First Name_f
 
 WebUI.setText(findTestObject('Object Repository/Page_REGISTER/input_Last Name_lastname'), 'มุมแดง')
 
-WebUI.setText(findTestObject('Object Repository/Page_REGISTER/input_E-mail_email'), 'aummumdaeng@gmail.com')
-
 WebUI.setText(findTestObject('Object Repository/Page_REGISTER/input_Phone_telephone'), '0656375524')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_REGISTER/input_Create Password_password'), '5oMMk0FHFUklkoX8kTnEvA==')
@@ -34,6 +32,8 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_REGISTER/input_Cre
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_REGISTER/input_Confirm Password_confirm'), '5oMMk0FHFUklkoX8kTnEvA==')
 
 WebUI.click(findTestObject('Object Repository/Page_REGISTER/input_Privacy Policy_btn btn-primary'))
+
+WebUI.verifyTextPresent('E-Mail Address does not appear to be valid!', false)
 
 WebUI.click(findTestObject('Object Repository/Page_REGISTER/div_Warning You must agree to the'))
 

@@ -37,5 +37,7 @@ WebUI.click(findTestObject('Object Repository/Page_REGISTER/input_Accept the con
 
 WebUI.click(findTestObject('Object Repository/Page_REGISTER/input_Privacy Policy_btn btn-primary'))
 
+WebUI.verifyTextPresent('Password confirmation does not match password!', false)
+
 WebUI.closeBrowser()
 

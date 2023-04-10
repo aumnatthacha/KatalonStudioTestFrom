@@ -31,5 +31,7 @@ WebUI.setText(findTestObject('Object Repository/Page_REGISTER/input_Phone_teleph
 
 WebUI.click(findTestObject('Object Repository/Page_REGISTER/input_Privacy Policy_btn btn-primary'))
 
+WebUI.verifyTextPresent('Password must be between 4 and 20 characters!', false)
+
 WebUI.closeBrowser()
 
